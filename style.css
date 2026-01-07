@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.sports-list {
+    margin-top: 40px;
+}
+
+.sports-list a {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sports-list a:hover {
+    background-color: #0056b3;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #007bff;
+}
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    margin: 0;
+    padding: 20px;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    color: #0d47a1;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #1565c0;
+    border-bottom: 3px solid #1565c0;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #0d47a1;
+    margin-top: 25px;
+}
+
+/* SECTION CARD */
+.section {
+    background: #ffffff;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 1100px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* PLAYER CARDS */
+.players {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.player {
+    width: 230px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.player:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+.player img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* TEAM LIST */
+.team-list h3 {
+    margin-top: 20px;
+    color: #1a237e;
+}
+
+.team-list ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* WORLD CUP IMAGES */
+.section img {
+    display: block;
+    margin: 15px auto;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* LISTS */
+ul {
+    line-height: 1.7;
+}
+
+/* BACK LINK */
+.back {
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0d47a1;
+    text-decoration: none;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
